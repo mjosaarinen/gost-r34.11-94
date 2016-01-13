@@ -17,7 +17,7 @@ Files:
 gosthash.h    Header file that contains the "API".   
 gosthash.c    The hash function itself. Link this file to your application.   
 gosttest.c    A test driver.
-gostan.c      Prints some linear dependecy matrices.
+gostan.c      Prints some linear dependency matrices.
 Makefile
 
 
@@ -27,7 +27,7 @@ Some documentation is also included
 
 gost34.11.ps
 
-   This is a draft translation of the russian standard GOST R 34.11-94, 
+   This is a draft translation of the Russian standard GOST R 34.11-94, 
    by Michael Roe of Cambridge University, England. Only the relevant 
    technical detail is included in this paper.
 

@@ -1,6 +1,13 @@
 # gost-r34.11-94
-Implementation of **GOST R34.11-94** hash function. 
-(This is from 1998! Only slightly modernized for 64-bit types and C99 in 2016.)
+Implementation of the old **GOST R34.11-94** hash function. 
+
+This code is from 1998! 
+I've only slightly modernised for 64-bit types and C99 in 2016.
+
+The algorithm was successfully cryptanalysed by Mendel et al (Crypto '08)
+and is no longer considered secure.
+The hash function has since been replaced by an entirely different algorithm
+"Streebog" revision GOST R 34.11-2012.
 
 ```
   % make            to compile the package
